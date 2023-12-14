@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * description:main prints out a string to stdout * Return:Always 0 (success) 
+*description:main prints out a string to stdout
+*Return:Always 0 (success) 
 */
 int main()
 {
