@@ -8,21 +8,21 @@
  */
 int main(void)
 {
-   int n = rand() % RAND_MAX - RAND_MAX / 2;
+   int n = rand() % (2*(long int) RAND_MAX +1) - (long int)RAND_MAX;
    srand(time(0));
     printf("%d is ", n);
 
     if (n > 0)
     {
-        printf("%s\n", "positive");
+        printf("%d is positive\n", n);
     }
     else if (n < 0)
     {
-        printf("%s\n", "negative");
+        printf("%d is negative\n", n);
     }
     else
     {
-        printf("%s\n", "zero");
+        printf("%d is zero\n", n);
     }
 
     printf("\n");
