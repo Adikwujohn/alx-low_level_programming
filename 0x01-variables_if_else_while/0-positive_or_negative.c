@@ -1,15 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
 /* main - determines if a number is positive,negative or zero */
-
 /* Return: 0 on success*/
-
 int main(void)
-
 {
-
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
