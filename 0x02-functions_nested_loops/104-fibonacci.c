@@ -11,8 +11,8 @@ int main() {
         int next = a + b;
         printf("%d", next);
 
-        if (count != 97) { // Ensures no comma after the last number
-            printf(", ");
+        if (count != 97) {
+	printf(", ");
         }
 
         a = b;
