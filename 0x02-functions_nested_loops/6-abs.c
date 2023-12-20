@@ -2,16 +2,16 @@
 #include "main.h"
 /**
  * _abs - computes the absolute value of a number.
- * @num: The number to be check.
+ * @c: The number to calculate the absolute value of.
  *
- * Return Absolute value of a number or zero
+ * Return Absolute value of the input number 'num'
  */
 int _abs(int c)
 {
 if (c < 0)
 {
 int abs_val;
-abs_val = c* -1;
+abs_val = c * -1;
 return (abs_val);
 }
 return (c);
