@@ -12,6 +12,6 @@ int main() {
         b = next;
     }
 
-    printf("%d\n", sum); // Printing the sum of even Fibonacci terms
+    printf("%d\n", sum);
     return 0;
 }
