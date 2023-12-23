@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /* Declaration of _putchar function */
 int _putchar(char c);
 
