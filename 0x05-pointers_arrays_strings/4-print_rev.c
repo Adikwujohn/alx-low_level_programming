@@ -6,15 +6,18 @@
  * @s: pointer to the string to be printed
  * This function prints the string in reverse recursively.
  */
-void print_rev(char *s)
-{
-    if (*s == '\0')
-    {
+void print_rev(char *s) {
+    if (s == NULL) {
         return;
     }
-    else
-    {
-        print_rev(s + 1);
-        _putchar(*s);
+
+    int length = 0;
+    while (s[length] != '\0') {
+        length++;
     }
+
+    for (int i = length - 1; i >= 0; i--) {
+        printf("%c", s[i]);
+    }
+    printf("\n");
 }
