@@ -15,6 +15,6 @@ return;
 else
 {
 print_rev(s + 1);
-putchar(*s);
+_putchar(*s);
 }
 }
