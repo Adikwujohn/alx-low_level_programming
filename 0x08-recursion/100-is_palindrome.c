@@ -8,11 +8,12 @@
  * @*s: pointer to variable s.
  * return: returns 1 if a string is a palindrome and 0 if not.
  */
-int is_palindrome(char *s, int i)
+int is_palindrome(char *s)
 {	
 	int length = strlen(s);
-int i;
-	for (int i = 0; i < length / 2; i++)
+	int i;
+
+	for (i = 0; i < length / 2; i++)
 {
 	if (s[i] != s[length - 1 - i])
 {
